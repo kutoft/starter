@@ -1,0 +1,94 @@
+/* ============================================================
+
+My Sample Site
+Version: 1.0
+URL: http://www.mysamplesite.com
+
+============================================================ */
+/* ====================
+BASE
+==================== */
+/*
+===== HEADER =====
+*/
+#header .site-logo {
+  display: block;
+  width: 242px;
+  height: 61px;
+  background: url("../images/logo-site.png") no-repeat 0 0; }
+
+/* MAIN NAV */
+/*
+===== MAIN =====
+*/
+/*
+===== FOOTER =====
+*/
+/* ====================
+USER INTERFACE
+==================== */
+/* ========== begin: ICONS ========== */
+/* ========== end: ICONS ========== */
+/* ========== begin: BUTTONS ========== */
+/* ========== end: BUTTONS ========== */
+/* ========== begin: DROPDOWNS/SELECT ========== */
+/* ========== end: DROPDOWNS/SELECT ========== */
+/* ========== begin: TABS ========== */
+/* ========== end: TABS ========== */
+/* ====================
+MODULES
+==================== */
+/* ====================
+FONTS
+==================== */
+.mycustom-font {
+  font-family: "MyCustomFont", Arial, sans-serif;
+  font-weight: 400; }
+
+.base-font {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* ====================
+COLORS
+==================== */
+/* Blue */
+.bg-blue {
+  background: #3366cc; }
+
+/* Red */
+.bg-red {
+  background: #c90000; }
+
+/* Green */
+.bg-green {
+  background: #008000; }
+
+@media only screen and (min-width: 480px) {
+  /* ====================
+  480 AND UP
+  ==================== */ }
+@media only screen and (min-width: 600px) {
+  /* ====================
+  600 AND UP
+  ==================== */ }
+@media only screen and (min-width: 768px) {
+  /* ====================
+  768 AND UP
+  ==================== */ }
+@media only screen and (min-width: 992px) {
+  /* ====================
+  992 AND UP
+  ==================== */ }
+@media only screen and (min-width: 1382px) {
+  /* ====================
+  1382 AND UP
+  ==================== */ }
+@media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  /* ==============================
+  2x ( High Res Graphics )
+  ============================== */ }
+@media print {
+  /* ====================
+  PRINT
+  (inlined to avoid required HTTP connection)
+  ==================== */ }

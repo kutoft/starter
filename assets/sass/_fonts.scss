@@ -1,0 +1,13 @@
+/* ====================
+FONTS
+==================== */
+
+// @include font-face('MyCustomFont', '../fonts/mycustom-webfont', normal, normal);
+
+
+// VARIABLES ====================
+$basefont       : "Helvetica Neue", Helvetica, Arial, sans-serif;
+$mycustomfont   : 'MyCustomFont', Arial, sans-serif;
+
+.mycustom-font { font-family: $mycustomfont; font-weight: 400; }
+.base-font { font-family: $basefont; }

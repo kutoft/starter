@@ -1,0 +1,46 @@
+/* ============================================================
+
+My Sample Site
+Version: 1.0
+URL: http://www.mysamplesite.com
+
+============================================================ */
+
+// 1) BASE (global/site wide styles)
+@import "base";
+
+// 2) USER INTERFACE (icons, buttons, forms, tabs, overlays, etc.)
+@import "ui";
+
+// 3) MODULES
+@import "modules";
+
+// 4) FONTS (font-face, font-family, etc.)
+@import "fonts";
+
+// 5) COLORS (text, background, etc.)
+@import "colors";
+
+// 6) 480px
+@media only screen and (min-width: 480px) { @import "480"; }
+
+// 7) 600px
+@media only screen and (min-width: 600px) { @import "600"; }
+
+// 8) 768px
+@media only screen and (min-width: 768px) { @import "768"; }
+
+// 9) 992px
+@media only screen and (min-width: 992px) { @import "992"; }
+
+// 10) 1382px
+@media only screen and (min-width: 1382px) { @import "1382"; }
+
+// 11) 2X (high res graphics)
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) { @import "2x"; }
+
+// 12) PRINT
+@media print { @import "print"; }
